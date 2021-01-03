@@ -403,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FCC6E809FE26E812F5CB495 /* Pods-FrameworkDemo_DYL.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -431,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66C0DC71081B59B46CA4F5AE /* Pods-FrameworkDemo_DYL.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
