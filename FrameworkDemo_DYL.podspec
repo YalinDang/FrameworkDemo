@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FrameworkDemo_DYL"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.5"
   spec.summary      = "测试 Framework"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  					1.0.3 初版做成，测试库的依赖管理。
+  					1.0.5 指定.m。
                    DESC
 
   spec.homepage     = "https://github.com/YalinDang/FrameworkDemo"
