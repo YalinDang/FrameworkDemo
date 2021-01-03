@@ -1,6 +1,0 @@
-framework module FrameworkDemo_DYL {
-  umbrella header "FrameworkDemo_DYL.h"
-
-  export *
-  module * { export * }
-}
