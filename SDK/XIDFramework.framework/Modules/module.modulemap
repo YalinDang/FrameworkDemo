@@ -1,0 +1,6 @@
+framework module XIDFramework {
+  umbrella header "XIDFramework.h"
+
+  export *
+  module * { export * }
+}

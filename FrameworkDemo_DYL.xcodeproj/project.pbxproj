@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F63BCF8259F111800716070 /* TestNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F63BCF6259F111800716070 /* TestNetwork.h */; };
-		5F63BCF9259F111800716070 /* TestNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F63BCF7259F111800716070 /* TestNetwork.m */; };
+		5F63BDDD25A195B200716070 /* FrameworkDemo_DYL.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5F63BDDC25A195B200716070 /* FrameworkDemo_DYL.podspec */; };
+		5F63BE1425A1B95500716070 /* XIDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F63BE1325A1B95400716070 /* XIDFramework.framework */; };
 		5FA6373D259F107000CA6457 /* FrameworkDemo_DYL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA63733259F107000CA6457 /* FrameworkDemo_DYL.framework */; };
 		5FA63742259F107000CA6457 /* FrameworkDemo_DYLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA63741259F107000CA6457 /* FrameworkDemo_DYLTests.m */; };
 		5FA63744259F107000CA6457 /* FrameworkDemo_DYL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA63736259F107000CA6457 /* FrameworkDemo_DYL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,8 +27,8 @@
 
 /* Begin PBXFileReference section */
 		0B86B1A51F8B82D9A99FA2E8 /* libPods-FrameworkDemo_DYL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FrameworkDemo_DYL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F63BCF6259F111800716070 /* TestNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetwork.h; sourceTree = "<group>"; };
-		5F63BCF7259F111800716070 /* TestNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetwork.m; sourceTree = "<group>"; };
+		5F63BDDC25A195B200716070 /* FrameworkDemo_DYL.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FrameworkDemo_DYL.podspec; sourceTree = SOURCE_ROOT; };
+		5F63BE1325A1B95400716070 /* XIDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XIDFramework.framework; sourceTree = "<group>"; };
 		5FA63733259F107000CA6457 /* FrameworkDemo_DYL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkDemo_DYL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA63736259F107000CA6457 /* FrameworkDemo_DYL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkDemo_DYL.h; sourceTree = "<group>"; };
 		5FA63737259F107000CA6457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF62CAAFE542E735FB7C36B1 /* libPods-FrameworkDemo_DYL.a in Frameworks */,
+				5F63BE1425A1B95500716070 /* XIDFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +60,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F63BE1225A1B95400716070 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F63BE1325A1B95400716070 /* XIDFramework.framework */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 		5FA63729259F107000CA6457 = {
 			isa = PBXGroup;
 			children = (
+				5F63BE1225A1B95400716070 /* SDK */,
 				5FA63735259F107000CA6457 /* FrameworkDemo_DYL */,
 				5FA63740259F107000CA6457 /* FrameworkDemo_DYLTests */,
 				5FA63734259F107000CA6457 /* Products */,
@@ -82,8 +92,7 @@
 		5FA63735259F107000CA6457 /* FrameworkDemo_DYL */ = {
 			isa = PBXGroup;
 			children = (
-				5F63BCF6259F111800716070 /* TestNetwork.h */,
-				5F63BCF7259F111800716070 /* TestNetwork.m */,
+				5F63BDDC25A195B200716070 /* FrameworkDemo_DYL.podspec */,
 				5FA63736259F107000CA6457 /* FrameworkDemo_DYL.h */,
 				5FA63737259F107000CA6457 /* Info.plist */,
 			);
@@ -124,7 +133,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA63744259F107000CA6457 /* FrameworkDemo_DYL.h in Headers */,
-				5F63BCF8259F111800716070 /* TestNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F63BDDD25A195B200716070 /* FrameworkDemo_DYL.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F63BCF9259F111800716070 /* TestNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +408,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
 				INFOPLIST_FILE = FrameworkDemo_DYL/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -424,6 +436,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
 				INFOPLIST_FILE = FrameworkDemo_DYL/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

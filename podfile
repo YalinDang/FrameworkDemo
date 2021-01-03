@@ -3,6 +3,6 @@ inhibit_all_warnings!
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'FrameworkDemo_DYL' do
-  pod 'AFNetworking'
+  pod 'AFNetworking', '~> 4.0.1'
 end
 
